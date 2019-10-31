@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/list/main",
+        "pages/movies/main",
+        "pages/detail/main",
+        "pages/moviedetail/main"
+    ],
+    "window": {
+        "navigationBarTitleText": "Movie",
+        "navigationBarBackgroundColor": "#81a",
+        "backgroundTextStyle": "light"
+    },
+    "requiredBackgroundModes": ["audio", "location"],
+    "tabBar": {
+        "position": "bottom",
+        "color": "#111",
+        "selectedColor": "#1f4ba5",
+        "list": [{
+        "pagePath": "pages/list/main",
+        "text": "文字",
+        "iconPath": "/static/images/tab/yuedu.png",
+        "selectedIconPath": "/static/images/tab/yuedu_hl.png"
+        }, {
+        "pagePath": "pages/movies/main",
+        "text": "电影频道",
+        "iconPath": "/static/images/tab/dianying.png",
+        "selectedIconPath": "/static/images/tab/dianying_hl.png"
+        }]
+    }
+}
